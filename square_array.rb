@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+
+  newarra = []
+
+  array.each do |numb|
+    numb *= numb
+    newarra << numb
+  end
+
+  return newarra
 end
